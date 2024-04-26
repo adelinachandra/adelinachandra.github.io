@@ -1,11 +1,22 @@
 /** @type {import('tailwindcss').Config} */
-export default {
+module.exports = {
+  important: false,
   content: [
+    "./index.html",
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontSize: {
+        '6xl': '4rem', // Adjust the size as needed
+      },
+      fontWeight: {
+        'bold': 'bold', // Adjust the weight as needed
+      },
+      colors: {
+        'navy': '#00215E',
+      }
+    },
   },
   plugins: [],
 }
-
