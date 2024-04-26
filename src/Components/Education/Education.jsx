@@ -8,30 +8,30 @@ var exp_data = [
     {
         title       : "Doctoral Candidate",
         company     : "Environmental Policy, Department of Environmental System Science, ETH Zürich, Switzerland",
-        start_date  : "01-07-2020",
-        end_date    : "01-08-2024",
+        start_date  : "01-11-2020",
+        end_date    : "01-10-2024",
         // description : "Affiliated with Conservation and Development, Department of Geography, University of Cambridge, United Kingdom Topic: Forest-focused commodity supply chain in the deforestation-risk commodities, focusing on palm oil sector",
         logo        : LogoETH
     },
     {
-        title       : "Research Fellow",
+        title       : "Visiting Scholar",
         company     : "Department of Geography, University of Cambridge, United Kingdom",
         start_date  : "01-05-2023",
         end_date    : "01-07-2023",
         logo        : LogoCambridge
     },
     {
-        title       : "Master of Science student in Environmental Studies and Sustainability Science",
+        title       : "MSc. in Environmental Studies and Sustainability Science",
         company     : "Faculty of Social Science, Lund University, Sweden",
-        start_date  : "01-07-2020",
-        end_date    : "01-08-2020",
+        start_date  : "01-08-2018",
+        end_date    : "01-05-2020",
         logo        : LogoLund
     },
     {
-        title       : "BSc in Geography (Hons)",
+        title       : "BSc. in Geography (Hons)",
         company     : "Faculty of Mathematics and Natural Sciences, University of Indonesia, Indonesia",
-        start_date  : "01-01-2011",
-        end_date    : "01-09-2015",
+        start_date  : "01-09-2011",
+        end_date    : "01-01-2015",
         logo        : LogoUI
     },
 ]
