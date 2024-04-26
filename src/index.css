@@ -4,19 +4,14 @@
 
 @layer base {
   @import '~@fortawesome/fontawesome-free/css/all.min.css';
-  @font-face {
-    font-family:inter var;
-    font-style:normal;
-    font-weight:100 900;
-    font-display:swap;
-    src:url(/dist/font/Inter.var.woff2)format("woff2")
-  }
+  @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
   h1 { @apply text-3xl font-bold; }
   h2 { @apply text-2xl font-bold; }
   h3 { @apply text-xl  font-bold; }
 }
 
 html {
+  /* font-family: 'Lato', sans-serif !important; */
   display: flex;
   justify-content: center;
 }

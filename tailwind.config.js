@@ -15,6 +15,9 @@ module.exports = {
       },
       colors: {
         'navy': '#00215E',
+      },
+      fontFamily: {
+        'sans': ['Lato', 'sans-serif'],
       }
     },
   },
