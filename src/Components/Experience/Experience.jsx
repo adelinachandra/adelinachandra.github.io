@@ -37,7 +37,7 @@ var exp_data = [
     },
     {
         title       : "Research Assistant",
-        company     : "Department of Geography, Universitas Indonesia",
+        company     : "Department of Geography, University of Indonesia",
         start_date  : "01-08-2014",
         end_date    : "01-02-2015",
         description : "Responsible in hydrological modelling, analysed the impact of land use change on watershed dynamics using remote sensing data.",
@@ -45,7 +45,7 @@ var exp_data = [
     },
     {
         title       : "GIS Instructor",
-        company     : "Department of Geography, Universitas Indonesia",
+        company     : "Department of Geography, University of Indonesia",
         start_date  : "01-01-2013",
         end_date    : "01-07-2013",
         description : "",
@@ -56,7 +56,7 @@ var exp_data = [
 export function Experience () {
     return (
         <section id='experience' className='flex flex-col text-left my-4'>
-            <h1 className='mb-5'>Experience</h1>
+            <h1 className='mb-3'>Experience</h1>
             <Experiencelist data = {exp_data}/>
         </section>
     )
