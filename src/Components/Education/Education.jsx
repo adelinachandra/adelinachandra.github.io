@@ -39,7 +39,7 @@ var exp_data = [
 export function Education () {
     return (
         <section id='education' className='flex flex-col text-left my-4'>
-            <h1 className='mb-5'>Education</h1>
+            <h1 className='mb-3'>Education</h1>
             <Educationlist data = {exp_data}/>
         </section>
     )
