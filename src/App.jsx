@@ -11,8 +11,9 @@ function App() {
   return (
     <div className='flex justify-center flex-col'>
       <Biography/>
-      <Experience/>
       <Education/>
+      <Experience/>
+      <p className='text-center mt-5 mx-10 text-xs'>© 2024 Adelina Chandra. Hosted by Github Pages. <br/>This work is licensed under CC BY NC ND 4.0</p>
     </div>
     
   )
