@@ -4,6 +4,11 @@
 
 @import '~@fortawesome/fontawesome-free/css/all.min.css';
 
+html {
+  display: flex;
+  justify-content: center;
+}
+
 @layer base {
   @font-face {
     font-family:inter var;
@@ -20,7 +25,8 @@
 body {
   display: flex;
   place-items: top;
-  margin: 0 30%;
+  /* margin: 0 30%; */
+  width: 650px;
   /* min-width: 320px;
   min-height: 100vh; */
 }
