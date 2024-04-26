@@ -5,7 +5,6 @@ export function Socials () {
             <a href="https://twitter.com/adelinachandra"          target="_blank" className="mx-1"><i className="text-2xl bi bi-twitter-x"></i></a>
             <a href="https://github.com/adelinachandra"           target="_blank" className="mx-1"><i className="text-2xl bi bi-github"></i></a>
             <a href="https://www.linkedin.com/in/adelinachandra/" target="_blank" className="mx-1"><i className="text-2xl bi bi-linkedin"></i></a>
-            <a href="https://www.instagram.com/adelinachandra/"   target="_blank" className="mx-1"><i className="text-2xl bi bi-instagram"></i></a>
         </section>
     )
 }
