@@ -7,7 +7,7 @@ export function Experiencelist ( props ) {
         <section id="experience-list" className='relative border-s border-black dark:border-gray ms-4'>
              {data.map(item => (
                 <ol>
-                    <span class="absolute flex items-center justify-center w-8 h-8 bg-white rounded-full -start-4">
+                    <span className="absolute flex items-center justify-center w-8 h-8 bg-white rounded-full -start-4">
                         <img src={item.logo} alt="" className="w-10 h-10 rounded-full object-cover" />
                     </span>
                     <li className='ms-8'>
