@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import Biography from './Components/Biography/Biography';
 import { Experience } from './Components/Experience/Experience';
+import { Education } from './Components/Education/Education';
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
     <div className='flex justify-center flex-col'>
       <Biography/>
       <Experience/>
+      <Education/>
     </div>
     
   )
