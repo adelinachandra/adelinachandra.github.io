@@ -6,7 +6,7 @@ var exp_data = [
     {
         author:"Adelina Chandra, Rachael D. Garrett, Kimberly M. Carlson, Robert Heilmayr, Matthieu Stigler, Jason J. Benedict, and Janina Grabs",
         year:"2024",
-        title:"Do corporate zero-deforestation commitments in Indonesia target forest at risk while ensuring smallholder inclusion?",
+        title:"How well does the implementation of corporate zero-deforestation commitments in Indonesia align with aims to halt deforestation and include smallholders?",
         type:"Environmental Research Letters",
         url:"https://iopscience.iop.org/article/10.1088/1748-9326/ad33d1"
     },
