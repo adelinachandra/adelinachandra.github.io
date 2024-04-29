@@ -1,9 +1,9 @@
 import { useState } from 'react'
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+
 import './App.css'
-import Biography from './Components/Biography/Biography';
-import { Experience } from './Components/Experience/Experience';
-import { Education } from './Components/Education/Education';
-import { Publications } from './Components/Publications/Publications';
+
+import Home from "./Pages/Home";
 import Header from './Components/Header/Header';
 
 
@@ -13,10 +13,11 @@ function App() {
   return (
     <div className='flex justify-center flex-col'>
       <Header/>
-      <Biography/>
-      <Education/>
-      <Experience/>
-      <Publications/>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+        </Routes>
+      </BrowserRouter>
       <p className='text-center mt-5 mx-10 text-xs'>© 2024 Adelina Chandra. Hosted by Github Pages. <br/>This work is licensed under CC BY NC ND 4.0</p>
     </div>
     
