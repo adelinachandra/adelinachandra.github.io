@@ -3,15 +3,20 @@
 @tailwind utilities;
 
 @layer base {
+  /* Imports */
   @import '~@fortawesome/fontawesome-free/css/all.min.css';
   @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+  /* HTML Tags Styling */
   h1 { @apply text-3xl font-bold; }
   h2 { @apply text-2xl font-bold; }
   h3 { @apply text-xl  font-bold; }
+
+  /* Custom Classes */
+  .publicationAnimations { @apply shadow-xl translate-x-2 translate-y-2 transition-all; }
 }
 
 html {
-  /* font-family: 'Lato', sans-serif !important; */
   display: flex;
   justify-content: center;
 }
@@ -19,8 +24,5 @@ html {
 body {
   display: flex;
   place-items: top;
-  /* margin: 0 30%; */
   width: 700px;
-  /* min-width: 320px;
-  min-height: 100vh; */
 }
