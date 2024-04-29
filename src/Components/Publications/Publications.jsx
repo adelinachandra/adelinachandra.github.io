@@ -28,7 +28,7 @@ var exp_data = [
 
 export function Publications () {
     return (
-        <section id='publications' className='flex flex-col text-left my-4'>
+        <section id='publications' className='flex flex-col text-left my-2'>
             <h1 className=''>Featured publications</h1>
             <Publicationslist  data={exp_data} />
         </section>
