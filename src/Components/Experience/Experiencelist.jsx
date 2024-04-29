@@ -5,8 +5,8 @@ export function Experiencelist ( props ) {
     const { data } = props;
     return (
         <section id="experience-list" className='relative border-s border-gray-300 dark:border-gray-300 ms-4'>
-             {data.map(item => (
-                <ol>
+             {data.map((item, i) => (
+                <ol key={i}>
                     <span className="absolute flex items-center justify-center w-8 h-8 bg-white rounded-full -start-4">
                         <img src={item.logo} alt="" className="w-10 h-10 rounded-full object-cover" />
                     </span>
