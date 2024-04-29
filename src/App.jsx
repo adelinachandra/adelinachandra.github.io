@@ -4,6 +4,7 @@ import Biography from './Components/Biography/Biography';
 import { Experience } from './Components/Experience/Experience';
 import { Education } from './Components/Education/Education';
 import { Publications } from './Components/Publications/Publications';
+import Header from './Components/Header/Header';
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
 
   return (
     <div className='flex justify-center flex-col'>
+      <Header/>
       <Biography/>
       <Education/>
       <Experience/>
