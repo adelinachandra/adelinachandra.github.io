@@ -1,5 +1,5 @@
-import GSCLogo from '../../assets/logo/google-scholar.svg'
-import OrcidLogo from '../../assets/logo/orcid.svg'
+import GSCLogo from '../../../assets/logo/google-scholar.svg'
+import OrcidLogo from '../../../assets/logo/orcid.svg'
 
 export function Socials () {
     return (

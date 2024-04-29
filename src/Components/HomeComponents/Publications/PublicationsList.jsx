@@ -1,4 +1,4 @@
-import { BoldText } from '../../helpers/boldText';
+import { BoldText } from '../../../helpers/boldText';
 
 export function Publicationslist ( props ) {
     const { data } = props;

@@ -1,6 +1,6 @@
 import { Experiencelist } from './Experiencelist';
-import LogoIGIA from '../../assets/logo/IndonesiaGeospatialInformationAgencylogo.png';
-import LogoUI from '../../assets/logo/ui.svg';
+import LogoIGIA from '../../../assets/logo/IndonesiaGeospatialInformationAgencylogo.png';
+import LogoUI from '../../../assets/logo/ui.svg';
 
 var exp_data = [
     {

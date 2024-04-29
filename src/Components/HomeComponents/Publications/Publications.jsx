@@ -1,6 +1,4 @@
 import { Publicationslist } from './PublicationsList';
-import LogoIGIA from '../../assets/logo/IndonesiaGeospatialInformationAgencylogo.png';
-import LogoUI from '../../assets/logo/ui.svg';
 
 var exp_data = [
     {

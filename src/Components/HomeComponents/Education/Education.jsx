@@ -1,8 +1,8 @@
 import { Educationlist } from './Educationlist';
-import LogoETH from '../../assets/logo/ETH.jpeg';
-import LogoCambridge from '../../assets/logo/Cambridge.jpg';
-import LogoLund from '../../assets/logo/Lund.svg';
-import LogoUI from '../../assets/logo/ui.svg';
+import LogoETH from '../../../assets/logo/ETH.jpeg';
+import LogoCambridge from '../../../assets/logo/Cambridge.jpg';
+import LogoLund from '../../../assets/logo/Lund.svg';
+import LogoUI from '../../../assets/logo/ui.svg';
 
 var exp_data = [
     {

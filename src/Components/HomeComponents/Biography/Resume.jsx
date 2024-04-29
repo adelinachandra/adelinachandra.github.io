@@ -1,4 +1,4 @@
-import Pdf from '../../assets/resume/resume.pdf'
+import Pdf from '../../../assets/resume/resume.pdf'
 
 export function Resume () {
     return (

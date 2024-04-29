@@ -1,5 +1,5 @@
 // formatDate
-import { formatDate } from '../../helpers/formatDate';
+import { formatDate } from '../../../helpers/formatDate';
 
 export function Experiencelist ( props ) {
     const { data } = props;
