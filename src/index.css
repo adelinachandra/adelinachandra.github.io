@@ -14,6 +14,7 @@
 
   /* Custom Classes */
   .publicationAnimations { @apply shadow-xl translate-x-2 translate-y-2 transition-all; }
+  .resumeAnimations { @apply shadow-md translate-x-1 translate-y-1 underline transition-all; }
 }
 
 html {

@@ -1,7 +1,6 @@
 
 import { Avatar } from './Avatar';
 import { BioTexts } from './BioTexts';
-import { Resume } from './Resume';
 import { Socials } from './Socials';
 
 export function Biography() {
@@ -10,7 +9,6 @@ export function Biography() {
       <Avatar/>
       <Socials/>
       <BioTexts/>
-      <Resume/>
     </section>
   );
 }
