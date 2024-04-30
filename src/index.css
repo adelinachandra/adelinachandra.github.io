@@ -8,9 +8,9 @@
   @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
 
   /* HTML Tags Styling */
-  h1 { @apply text-3xl font-bold; }
-  h2 { @apply text-2xl font-bold; }
-  h3 { @apply text-xl  font-bold; }
+  h1 { @apply text-2xl font-bold; }
+  h2 { @apply text-xl font-bold; }
+  h3 { @apply text-lg  font-bold; }
 
   /* Custom Classes */
   .publicationAnimations { @apply shadow-xl translate-x-2 translate-y-2 transition-all; }

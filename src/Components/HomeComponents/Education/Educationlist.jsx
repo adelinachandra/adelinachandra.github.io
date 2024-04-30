@@ -10,7 +10,7 @@ export function Educationlist ( props ) {
                         <img src={item.logo} key={i}alt="" className="min-w-10 min-h-10 rounded-full object-cover" />
                     </span>
                     <li className='ms-8'>
-                        <h3 id="education-position" className='mb-1'> {item.title} </h3>
+                        <h3 id="education-position" className='mb-1 pt-0.5'> {item.title} </h3>
                         <p id="education-time" className='text-sm italic text-gray-500'> {formatDate(item.start_date)} - {formatDate(item.end_date)} </p>
                         <p id="education-company" className='mb-3'>{item.company}</p>
                     </li>
