@@ -1,13 +1,13 @@
 import { useState } from "react";
-import Logo from "../../assets/logo/logo.svg";
+import Logo from "../../assets/logo/logo_white.jpeg";
 
 export default function Header() {
   const [isNavOpen, setIsNavOpen] = useState(false);
 
   return (
-    <div className="flex items-center justify-between border-b border-gray-400 py-2">
-      <a href="/">
-        <img src={Logo} alt="logo" className="w-10"/>
+    <div id="header" className="sticky flex items-center justify-between border-b py-2 m-0 text-sm" style={{  borderColor:'#545454' }}>
+      <a href="/" className="border-2 rounded-full bo">
+        <img src={Logo} alt="logo" className="w-10 rounded-full p-2"/>
       </a>
       <nav>
         <section className="MOBILE-MENU flex lg:hidden">
@@ -42,9 +42,9 @@ export default function Header() {
               <li className="border-b border-gray-400 my-8 uppercase">
                 <a href="/">Home</a>
               </li>
-              {/* <li className="border-b border-gray-400 my-8 uppercase">
-                <a href="/publications">Publications</a>
-              </li> */}
+              <li className="border-b border-gray-400 my-8 uppercase">
+                <a href="/publication">Publications</a>
+              </li>
               {/* <li className="border-b border-gray-400 my-8 uppercase">
                 <a href="/projects">Projects</a>
               </li> */}
@@ -57,8 +57,8 @@ export default function Header() {
 
         <ul className="DESKTOP-MENU hidden space-x-8 lg:flex">
           <li> <a href="/">Home</a> </li>
-          {/* <li> <a href="/publications">Publications</a> </li>
-          <li> <a href="/projects">Projects</a> </li>
+          <li> <a href="/publication">Publications</a> </li>
+          {/* <li> <a href="/projects">Projects</a> </li>
           <li> <a href="/photography">Photography</a> </li> */}
         </ul>
       </nav>
