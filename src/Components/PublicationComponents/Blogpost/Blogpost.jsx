@@ -9,7 +9,7 @@ export function Blogpost ( props ) {
                             (item.title   !== "" && item.url  !== "") ? (<a href={item.url} target='_blank'><h3 id="blogpost-title"> <i className='bi bi-chat-left-text text-lg'/> <span className='hover:underline hover:drop-shadow-md'>{item.title}</span> </h3></a>) : 
                             (item.title   !== "") ? (<h3 id="blogpost-title"> <i className='bi bi-chat-left-text text-lg'/> {item.title} </h3>) : ("")
                         }
-                        {item.year    !== "" ? (<p id="book-editing-informations">{item.year} <span>&#183;</span> in <span className='italic'>{item.type}</span></p>): ("")} 
+                        {item.year    !== "" ? (<p id="book-editing-informations" className='text-sm text-gray-500'>{item.year} <span>&#183;</span> in <span className='italic'>{item.type}</span></p>): ("")} 
                     </li>
                 </ol>
             ))}

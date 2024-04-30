@@ -19,7 +19,7 @@ var research_data = [
         url:"https://www.nature.com/articles/s41893-024-01296-9"
     },
     {
-        author:"Adelina Chandra, Dimas Fauzi, Fadhilla Husnul Khatimah, and Satrio Adi Wicaksono",
+        author:"Adelina Chandra, Dimas Fauzi, Fadhilla Khatimah, and Satrio Adi Wicaksono",
         year:"2022",
         title:"Assessing drivers of forest conservation in Simancuang village forest, West Sumatra",
         type:"Springer Nature",

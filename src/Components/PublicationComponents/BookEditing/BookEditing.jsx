@@ -11,8 +11,8 @@ export function BookEditing ( props ) {
                             (item.title   !== "" && item.url  !== "") ? (<a href={item.url} target='_blank'><h3 id="book-editing-title"> <i className='bi bi-book text-lg'/> <span className='hover:underline hover:drop-shadow-md'>{item.title}</span> </h3></a>) : 
                             (item.title   !== "") ? (<h3 id="book-editing-title"> <i className='bi bi-book text-lg'/> {item.title} </h3>) : ("")
                         }
-                        {item.year    !== "" ? (<p id="book-editing-informations">{item.year} <span>&#183;</span> in <span className='italic'>{item.type}</span></p>): ("")} 
-                        {item.author  !== "" ? (<p id="book-editing-author"> {BoldText(item.author, 'Adelina Chandra')} </p>): ("")} 
+                        {item.year    !== "" ? (<p id="book-editing-informations"  className='text-sm text-gray-500'>{item.year} <span>&#183;</span> in <span className='italic'>{item.type}</span></p>): ("")} 
+                        {item.author  !== "" ? (<p id="book-editing-author" className='text-sm'> {BoldText(item.author, 'Adelina Chandra')} </p>): ("")} 
                     </li>
                 </ol>
             ))}
