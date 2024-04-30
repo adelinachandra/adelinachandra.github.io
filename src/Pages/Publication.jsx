@@ -1,4 +1,3 @@
-import { Publicationslist } from '../Components/HomeComponents/Publications/PublicationsList';
 import { WorkingPaper } from './../Components/PublicationComponents/WorkingPaper/WorkingPaper';
 import { Research } from './../Components/PublicationComponents/Research/Research';
 import { BookEditing } from './../Components/PublicationComponents/BookEditing/BookEditing';

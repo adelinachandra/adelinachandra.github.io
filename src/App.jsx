@@ -6,6 +6,7 @@ import './App.css'
 import Header from './Components/Header/Header';
 import { Home } from "./Pages/Home";
 import { Publication } from './Pages/Publication';
+import { Projects } from './Pages/Projects';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -17,6 +18,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/publication" element={<Publication />} />
+          <Route path="/projects" element={<Projects />} />
         </Routes>
       </HashRouter>
       <p className='text-center mt-5 mx-10 text-xs'>© 2024 Adelina Chandra. Hosted by <a href="https://github.com/adelinachandra/adelinachandra.github.io" target='_blank'>Github Pages</a>. <br/>This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.en">CC BY NC ND 4.0</a></p>
