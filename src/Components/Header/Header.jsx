@@ -1,14 +1,15 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import Logo from "../../assets/logo/logo_white.jpeg";
 
 export default function Header() {
   const [isNavOpen, setIsNavOpen] = useState(false);
 
   return (
-    <div id="header" className="sticky flex items-center justify-between border-b py-2 m-0 text-sm" style={{  borderColor:'#545454' }}>
-      <a href="/" className="border-2 rounded-full bo">
+    <div id="header" className="sticky flex items-center justify-between border-b py-2 m-0 text-sm" style={{ borderColor:'#545454' }}>
+      <Link to="/" className="border-2 rounded-full bo">
         <img src={Logo} alt="logo" className="w-10 rounded-full p-2"/>
-      </a>
+      </Link>
       <nav>
         <section className="MOBILE-MENU flex lg:hidden">
           <div
@@ -40,26 +41,26 @@ export default function Header() {
             </div>
             <ul className="flex flex-col items-center justify-between min-h-[250px]">
               <li className="border-b border-gray-400 my-8 uppercase">
-                <a href="/">Home</a>
+                <Link to="/">Home</Link>
               </li>
               <li className="border-b border-gray-400 my-8 uppercase">
-                <a href="/publication">Publications</a>
+                <Link to="/publication">Publications</Link>
               </li>
               {/* <li className="border-b border-gray-400 my-8 uppercase">
-                <a href="/projects">Projects</a>
+                <Link to="/projects">Projects</Link>
               </li> */}
               {/* <li className="border-b border-gray-400 my-8 uppercase">
-                <a href="/photography">Photography</a>
+                <Link to="/photography">Photography</Link>
               </li> */}
             </ul>
           </div>
         </section>
 
         <ul className="DESKTOP-MENU hidden space-x-8 lg:flex">
-          <li> <a href="/">Home</a> </li>
-          <li> <a href="/publication">Publications</a> </li>
-          {/* <li> <a href="/projects">Projects</a> </li>
-          <li> <a href="/photography">Photography</a> </li> */}
+          <li> <Link to="/">Home</Link> </li>
+          <li> <Link to="/publication">Publications</Link> </li>
+          {/* <li> <Link to="/projects">Projects</Link> </li>
+          <li> <Link to="/photography">Photography</Link> </li> */}
         </ul>
       </nav>
       <style>{`
