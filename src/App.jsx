@@ -17,7 +17,7 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/publication" element={<Publication />} />
+          <Route path="/publications" element={<Publication />} />
           <Route path="/projects" element={<Projects />} />
         </Routes>
       </HashRouter>

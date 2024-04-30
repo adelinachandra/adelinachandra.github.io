@@ -44,7 +44,7 @@ export default function Header() {
                 <Link to="/">Home</Link>
               </li>
               <li className="border-b border-gray-400 my-8 uppercase">
-                <Link to="/publication">Publications</Link>
+                <Link to="/publications">Publications</Link>
               </li>
               <li className="border-b border-gray-400 my-8 uppercase">
                 <Link to="/projects">Projects</Link>
@@ -58,7 +58,7 @@ export default function Header() {
 
         <ul className="DESKTOP-MENU hidden space-x-8 lg:flex">
           <li> <Link to="/">Home</Link> </li>
-          <li> <Link to="/publication">Publications</Link> </li>
+          <li> <Link to="/publications">Publications</Link> </li>
           <li> <Link to="/projects">Projects</Link> </li>
           {/* <li> <Link to="/photography">Photography</Link> </li> */}
         </ul>
